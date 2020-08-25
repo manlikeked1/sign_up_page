@@ -108,6 +108,26 @@ class _SignUpScreenState extends State<SignUpScreen> {
               ),
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.all(15.0),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(100),
+              child: Container(
+                height: 60,
+                child: RaisedButton(
+                  onPressed: () {},
+                  color: Colors.redAccent,
+                  child: Text(
+                    'SIGN UP',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20),
+                  ),
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
